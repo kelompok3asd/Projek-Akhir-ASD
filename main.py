@@ -36,6 +36,26 @@ class FriendList:
 			# jika node selanjutnya kosong (== None), maka tambahkan node baru di akhir list.
 			current.next = new_friend
 			self.size += 1	
+			
+	# fungsi untuk menghapus teman dari daftar
+	def remove_friend(self, name):
+
+		# jika head isinya kosong (None), kembalikan nilai 'return'
+		if self.head == None:
+			return 'There is no one to be removed cause there is no friend yet.'
+		
+		# jika nama dari head adalah nama yang diinput, 
+		if self.head.name == name:
+			self.head = self.head.next
+			self.size -= 1
+			return
+		
+		current = self.head
+		while current.next != None:
+			if current.next.name == name:
+				current.next = current.next.next
+				return
+			current = current.next
 		
 	# fungsi merge sort (untuk mendapatkan nilai tengah dalam linked list)
 	def get_mid(self, head):
@@ -174,7 +194,7 @@ def friend_menu(friend):
 			6. Sort by level (descending) \n \
 			7. Back')
 		try:
-			usr_input = int(input('Select your need : '))
+			usr_input =  int(input('Select your need : '))
 
 			if usr_input == 1:
 				os.system('cls')
