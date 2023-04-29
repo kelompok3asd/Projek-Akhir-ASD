@@ -22,8 +22,7 @@ Unduh file program, kemudian jalankan program menggunakan bahasa pemrograman Pyt
 8. Menu yang terakhir adalah menu "Back" yang akan kembali ke menu sebelumnya (menu untuk login).
 
 ## Class and Function
-### Class FriendList
-  Class FriendList memiliki beberapa class lain dan juga satu class FriendNode. Class FriendNode hanya memiliki fungsi konstruktor yang menginisialisasi atribut name, id_char, level, total_achievement, dan next. Sedangkan Class FriendList terdiri dari beberapa function sebagai berikut.
+  Class FriendList memiliki beberapa class lain dan juga satu class FriendNode. Class FriendNode hanya memiliki fungsi konstruktor yang menginisialisasi atribut name, id_char, level, total_achievement, dan next. Sedangkan Class FriendList terdiri dari beberapa function sebagai berikut:
 #### Function
 1. Function yang mendeklarasikan dirinya sebagai 'name', 'id_char', 'level', dan 'total_achievement'.
 2. Function yang mendeklarasikan head dan size (panjang list).
