@@ -43,3 +43,6 @@ Unduh file program, kemudian jalankan program menggunakan bahasa pemrograman Pyt
 
 ## Multi User
 Program ini memiliki fitur multi user atau banyak user, dimana user dapat memiliki akunnya dan daftar teman mereka sendiri secara terpisah dari akun lain. Data user yang terpisah disimpan menggunakan dictionary Python.
+
+## Catatan
+Ini adalah program yang disederhanakan dan tidak boleh digunakan dalam situasi kehidupan nyata. Ini hanya dimaksudkan untuk tujuan pembelajaran saja.
