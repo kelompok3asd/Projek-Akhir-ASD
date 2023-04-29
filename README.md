@@ -23,7 +23,7 @@ Unduh file program, kemudian jalankan program menggunakan bahasa pemrograman Pyt
 
 ## Class and Function
 ### Class FriendList
-  Class FriendList memiliki class lain didalamnya, yaitu class FriendNode. Class FriendNode ini terdiri dari beberapa function sebagai berikut.
+  Class FriendList memiliki beberapa class lain dan juga satu class FriendNode. Class FriendNode hanya memiliki fungsi konstruktor yang menginisialisasi atribut name, id_char, level, total_achievement, dan next. Sedangkan Class FriendList terdiri dari beberapa function sebagai berikut.
 #### Function
 1. Function yang mendeklarasikan dirinya sebagai 'name', 'id_char', 'level', dan 'total_achievement'.
 2. Function yang mendeklarasikan head dan size (panjang list).
@@ -40,3 +40,6 @@ Unduh file program, kemudian jalankan program menggunakan bahasa pemrograman Pyt
 13. Function register yang berguna untuk menerima dan menyimpan masukan pengguna ketika membuat username dan password.
 14. Function login mengambil input pengguna untuk nama pengguna dan kata sandi yang ada, serta memeriksa kecocokan dari data.
 15. Function main_menu mendefinisikan opsi menu utama untuk program dan memungkinkan pengguna untuk memilih salah satunya. 
+
+## Multi User
+Program ini memiliki fitur multi user atau banyak user, dimana user dapat memiliki akunnya dan daftar teman mereka sendiri secara terpisah dari akun lain. Data user yang terpisah disimpan menggunakan dictionary Python.
