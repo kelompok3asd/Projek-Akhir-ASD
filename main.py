@@ -11,12 +11,32 @@ class FriendList:
 			self.level = level
 			self.total_achievement = total_achievement
 			self.next = None
-
+			
 	# constructor untuk kelas FriendList
 	def __init__(self):
 		self.head = None
 		self.size = 0
 
+	# fungsi untuk menambahkan teman baru
+	def add_friend(self, name, id_char, level, total_achievement):
+
+		new_friend = self.FriendNode(name, id_char, level, total_achievement)
+
+		# jika head isinya kosong (linked list blum ada isinya), tambahkan node baru.
+		if self.head == None:
+			self.head = new_friend
+			self.size += 1
+		else:
+
+			# jika head sudah ada (menunjuk ke node pertama).
+			current = self.head
+			# selama node selanjutnya tidak kosong (None), maka next.
+			while current.next != None:
+				current = current.next
+			# jika node selanjutnya kosong (== None), maka tambahkan node baru di akhir list.
+			current.next = new_friend
+			self.size += 1	
+		
 	# fungsi merge sort (untuk mendapatkan nilai tengah dalam linked list)
 	def get_mid(self, head):
 		if head is None:
