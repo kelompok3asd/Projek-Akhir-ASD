@@ -36,3 +36,7 @@ Unduh file program, kemudian jalankan program menggunakan bahasa pemrograman Pyt
 9. Function jump_search digunakan untuk melakukan pencarian secara acak dengan hanya menyebutkan kata kuncinya, yaitu dengan variabel 'name'.
 10. Function print_friends berguna untuk menampilkan list teman yang ada pada friend list pengguna.
 11. Function print_detail menggunakan variabel 'name' sebagai kata kuncinya untuk menampilkan detail info mengenai teman si pengguna.
+12. Function friend_menu berguna untuk menyimpan data user dan object linked list.
+13. Function register yang berguna untuk menerima dan menyimpan masukan pengguna ketika membuat username dan password.
+14. Function login mengambil input pengguna untuk nama pengguna dan kata sandi yang ada, serta memeriksa kecocokan dari data.
+15. Function main_menu mendefinisikan opsi menu utama untuk program dan memungkinkan pengguna untuk memilih salah satunya. 
