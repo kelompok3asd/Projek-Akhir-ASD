@@ -137,6 +137,7 @@ class FriendList:
 				return friend
 			current = current.next
 
+# dictionary untuk menyimpan data user dan object linked list.
 users = {}
 friend_lists = {}
 
